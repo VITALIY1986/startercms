@@ -3,7 +3,6 @@ templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
@@ -52,7 +51,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-paragraphs: Быстр И качечтвенная интеграцыя даныхsDGGGGGGGGGGGGGsryjsgdjjjjjfyddddd
+paragraphs: Быстр И качечтвенная интеграцыя данcыхsDGGGGGGGGGGGGGsryjsgdjjjjjfyddddd
 main:
   heading: Great coffee with no compromises
   description: >
@@ -69,6 +68,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-
 ---
 
