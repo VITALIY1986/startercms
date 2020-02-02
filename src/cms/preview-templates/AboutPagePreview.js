@@ -5,7 +5,7 @@ import { AboutPageTemplate } from '../../templates/about-page'
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
   <AboutPageTemplate
-    title={entry.getIn(['data', 'title'])}
+    title={entry.getIn(['data', 'title','img'])}
     content={widgetFor('body')}
   />
 )
