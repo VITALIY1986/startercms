@@ -67,6 +67,6 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-paragraphs: Быстро И качечтвенная интеграцыя даных
+paragraphs: Быстр И качечтвенная интеграцыя даных
 ---
 
