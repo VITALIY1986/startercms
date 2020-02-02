@@ -8,12 +8,14 @@ import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
+  paragraphs,
   title,
   heading,
   subheading,
   mainpitch,
   description,
   intro,
+
 }) => (
   <div>
     <div
@@ -76,6 +78,7 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
+                
                   </div>
                 </div>
                 <div className="columns">
@@ -84,6 +87,7 @@ export const IndexPageTemplate = ({
                       {heading}
                     </h3>
                     <p>{description}</p>
+                    <p>{paragraphs}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
@@ -121,6 +125,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  paragraphs: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -139,6 +144,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        paragraphs={frontmatter.paragraphs}
       />
     </Layout>
   )
@@ -158,6 +164,7 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+   
         title
         image {
           childImageSharp {
@@ -166,8 +173,10 @@ export const pageQuery = graphql`
             }
           }
         }
+        paragraphs
         heading
         subheading
+       
         mainpitch {
           title
           description
