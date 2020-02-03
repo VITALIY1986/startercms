@@ -1,10 +1,10 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
+image: >-
+  /img/jewish-holiday-hanukkah-with-menorah-traditional-candelabra_73110-6978.jpg
 heading: Great coffee with a conscience
-
-subheading: Support sustainable farming while enjoying a cup
+subheading: слушай Израиль
 mainpitch:
   title: Why Kaldi
   description: >
@@ -52,7 +52,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-paragraphs: Быстр И качечтвенная интеграцыя даныхsDGGGGGGGGGGGGGsryjsgdjjjjjfyddddd
+paragraphs: Быстр И качечтвенная GGGGGsryjsgdjjjjjfyddddd
 main:
   heading: Great coffee with no compromises
   description: >
@@ -69,6 +69,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-
 ---
 
