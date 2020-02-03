@@ -2,7 +2,7 @@
 templateKey: index-page
 title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
 image: >-
-  /img/jewish-holiday-hanukkah-with-menorah-traditional-candelabra_73110-6978.jpg
+  /img/jewish-holiday-hanukkah-with-menorah-traditional-candelabra_73110-7001.jpg
 heading: Great coffee with a conscience
 subheading: Скиния Славы
 mainpitch:
