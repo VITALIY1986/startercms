@@ -1,11 +1,12 @@
 ---
 templateKey: index-page
 title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
-image: /img/ггг.jpg
+image: >-
+  /img/jewish-holiday-hanukkah-with-menorah-traditional-candelabra_73110-7001.jpg
 heading: Great coffee with a conscience
 subheading: слушай Израиль
 mainpitch:
-  title: Черновцы Скиния Славы
+  title: Why Kaldi
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
