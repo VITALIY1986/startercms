@@ -5,7 +5,7 @@ image: /img/ггг.jpg
 heading: Great coffee with a conscience
 subheading: слушай Израиль
 mainpitch:
-  title: Why Kaldi
+  title: Черновцы Скиния Славы
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
