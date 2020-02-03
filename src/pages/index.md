@@ -1,8 +1,7 @@
 ---
 templateKey: index-page
 title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
-image: >-
-  /img/diy-hanukkah-decor-star-david-from-ice-cream-sticks-white-wooden-table_71756-189.jpg
+image: /img/72ea.gif
 heading: Great coffee with a conscience
 subheading: Скиния Славы
 mainpitch:
