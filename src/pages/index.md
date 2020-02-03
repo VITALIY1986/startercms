@@ -4,7 +4,7 @@ title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
 image: >-
   /img/jewish-holiday-hanukkah-with-menorah-traditional-candelabra_73110-6978.jpg
 heading: Great coffee with a conscience
-subheading: слушай Израиль
+subheading: Скиния Славы
 mainpitch:
   title: Why Kaldi
   description: >
