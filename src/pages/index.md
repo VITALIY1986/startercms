@@ -1,10 +1,9 @@
 ---
 templateKey: index-page
-title: 'ЧЕРНОВИЦКАЯ МЕССИАНСКАЯ ОБЩИНА '
-
+title: e
 image: /img/happy-hanukkah-jewish-holiday-hanukkah-with-menorah_73110-6841.jpg
 heading: Great coffee with a conscience
-subheading: Скиния Славы
+subheading: e
 mainpitch:
   title: Why Kaldi
   description: >
