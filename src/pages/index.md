@@ -33,7 +33,7 @@ intro:
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
-    - image: /img/flavor_wheel.jpg
+    - image: /img/chemex.jpg
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
         fancy new Chemex but have no clue how to use it? Don't worry, we’re here
@@ -47,15 +47,13 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-    - image: /img/products-grid3.jpg
-      text: fjfjfjfgjfgjfgjfjgfjgfjfjg
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-paragraphs: Быстр И качечтвенная GGGGGsryjsgdjjjjjfyddddd
+paragraphs: w
 main:
   heading: Great coffee with no compromises
   description: >
