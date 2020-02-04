@@ -1,6 +1,9 @@
 body {overflow: hidden;
     background: #250c0ce8;;
   }
+  html{
+    overflow: hidden;
+  }
   .first_about_block{
     padding: 20px;
     background-color:#ffffff8f;
@@ -11,4 +14,7 @@ body {overflow: hidden;
    font-size: 10rem;
     font-weight: 600;
     line-height: 1.125;
+  }
+  p{
+    color: #847154;
   }
