@@ -55,19 +55,7 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <div
-   
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `center`,
-
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
-      }}
-    ></div>
+        
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -83,15 +71,10 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+    <div className="first_about_block">
+                <div className="">
+                  <div className="tiles">
+                    <h1 className="titles">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
@@ -100,13 +83,21 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="">
                       {heading}
                     </h3>
                     <p>{description}</p>
            
                   </div>
                 </div>
+                </div>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+              
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
@@ -119,7 +110,7 @@ export const IndexPageTemplate = ({
            
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -177,7 +168,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality:100) {
               ...GatsbyImageSharpFluid
             }
           }
