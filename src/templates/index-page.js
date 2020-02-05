@@ -107,7 +107,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <h1>{paragraphs}</h1>  
-                    <h1> <div dangerouslySetInnerHTML={{ __html: bodys.html}} /></h1>  
+                    <h1> <div dangerouslySetInnerHTML={{ __html: bodys}} /></h1>  
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
