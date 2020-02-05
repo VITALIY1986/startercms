@@ -5,10 +5,11 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-
+import MyNewIndexPageComponent from '../components/MyNewIndexPageComponent'
 export const IndexPageTemplate = ({
 
   image,
+  code,
   paragraphs,
   title,
   heading,
@@ -78,9 +79,13 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
-                
+          
+                   
+          
                   </div>
                 </div>
+                <h1>   <MyNewIndexPageComponent/></h1>
+              
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="">
@@ -101,7 +106,8 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <h1>{paragraphs}</h1>
+                    <h1>{paragraphs}</h1>  
+                    <h1> <div dangerouslySetInnerHTML={{ __html: code}} /></h1>  
                     <Link className="btn" to="/products">
                       See all productsd
                     </Link>
@@ -125,6 +131,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  code: PropTypes.code,
   paragraphs: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -145,6 +152,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         paragraphs={frontmatter.paragraphs}
+        code={frontmatter.code}
       />
     </Layout>
   )
@@ -164,7 +172,8 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-   
+        paragraphs
+    code
         title
         image {
           childImageSharp {
@@ -173,7 +182,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        paragraphs
+      
         heading
         subheading
        
@@ -181,6 +190,7 @@ export const pageQuery = graphql`
           title
           description
         }
+   
         description
         intro {
           blurbs {
