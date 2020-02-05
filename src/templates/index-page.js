@@ -107,7 +107,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <h1>{paragraphs}</h1>  
-                    <h1> <div dangerouslySetInnerHTML={{ __html: bodys}} /></h1>  
+                    <h1> <div dangerouslySetInnerHTML={{ __html: bodys.html}} /></h1>  
                     <Link className="btn" to="/products">
                       See all productsd
                     </Link>
@@ -131,7 +131,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  bodys: PropTypes.markdown,
+  bodys: PropTypes.html,
   paragraphs: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
