@@ -70,6 +70,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+<<<<<<< HEAD
 body: >-
   <!--StartFragment-->
 
@@ -80,5 +81,9 @@ body: >-
 
 
   <!--EndFragment-->
+=======
+>>>>>>> ece88e815df4986fabdacd088f0c9d5d179b8e73
 ---
+adfadfadfadfadgdndgjsdgjds
 
+![](/img/Gatsby_Contentful.jpg)
