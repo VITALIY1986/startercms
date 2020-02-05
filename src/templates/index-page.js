@@ -9,7 +9,7 @@ import MyNewIndexPageComponent from '../components/MyNewIndexPageComponent'
 export const IndexPageTemplate = ({
 
   image,
-  bodys,
+  body,
   paragraphs,
   title,
   heading,
@@ -107,7 +107,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <h1>{paragraphs}</h1>  
-                    <h1> <div dangerouslySetInnerHTML={{ __html:bodys}} /></h1>  
+                    <h1> <div dangerouslySetInnerHTML={{ __html:body}} /></h1>  
                     <Link className="btn" to="/products">
                       See all productsd
                     </Link>
@@ -131,7 +131,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  bodys: PropTypes.markdown,
+  body: PropTypes.markdown,
   paragraphs: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -152,7 +152,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         paragraphs={frontmatter.paragraphs}
-        bodys={frontmatter. bodys}
+        body={frontmatter. body}
       />
     </Layout>
   )
@@ -173,7 +173,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         paragraphs
-        bodys
+        body
         title
         image {
           childImageSharp {
