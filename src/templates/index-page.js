@@ -109,7 +109,7 @@ export const IndexPageTemplate = ({
                     <h1>{paragraphs}</h1>  
                     <h1> <div dangerouslySetInnerHTML={{ __html: bodys.html}} /></h1>  
                     <Link className="btn" to="/products">
-                      See all productsd
+                      See all products
                     </Link>
                   </div>
                 </div>
