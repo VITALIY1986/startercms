@@ -54,7 +54,6 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 paragraphs: w
-bodys: <iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
 main:
   heading: Great coffee with no compromises
   description: >
@@ -71,5 +70,15 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+bodys: >-
+  <!--StartFragment-->
+
+
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0"
+  allowfullscreen></iframe>
+
+
+  <!--EndFragment-->
 ---
 
