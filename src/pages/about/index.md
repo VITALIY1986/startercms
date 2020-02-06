@@ -1,10 +1,12 @@
 ---
 templateKey: about-page
 title: ПОЛУeeeeyy
+
 ---
 <!--StartFragment-->
+ ![flavor wheel](/img/72ea.gif) 
+<iframe  src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
 
 <!--EndFragment-->
 
